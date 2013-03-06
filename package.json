@@ -1,5 +1,5 @@
 {
-    "name": "node-pixel-sorter",
+    "name": "pixel-sorter",
     "description": "Sorts out that big pixel mess in your image and creates order",
     "version": "0.1.0",
     "main": "./index.js",
