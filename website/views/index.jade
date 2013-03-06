@@ -1,0 +1,16 @@
+doctype 5
+html(lang="en")
+    head
+        title Pixel Sorter
+    body
+        h1 Pixel Sorter
+        h2 Your images are big, tangled messes of pixels.  We'll sort them for you.
+        p Upload the image you want to sort:
+        form(method='post',enctype='multipart/form-data')
+            p
+                label(for='title') Title: 
+                input(type='text',name='title')
+            p
+                input(type='file',name='image')
+            p
+                input(type='submit',value='upload')

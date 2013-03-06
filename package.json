@@ -1,0 +1,30 @@
+{
+    "name": "node-pixel-sorter",
+    "description": "Sorts out that big pixel mess in your image and creates order",
+    "version": "0.1.0",
+    "main": "./index.js",
+    "dependencies": {
+        "node-gd": "0.2.x",
+        "underscore": "*",
+        "gd-magicopen": "*",
+        "gd-image2pixels": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Harrison-M/node-pixel-sorter.git"
+    },
+    "homepage": "https://github.com/Harrison-M/node-pixel-sorter.git",
+    "keywords": [
+        "gd",
+        "pixels",
+        "image",
+        "art",
+        "sort"
+    ],
+    "author": {
+        "name": "Harrison Massey",
+        "email": "harrison.massey@gmail.com",
+        "url": "https://github.com/Harrison-M"
+    },
+    "license": "MIT"
+}

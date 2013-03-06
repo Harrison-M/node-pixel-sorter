@@ -1,0 +1,11 @@
+{
+    "name": "pixel-sorter-web",
+    "description": "Sorts out that big pixel mess in your image and creates order through a web interace",
+    "version": "0.0.1",
+    "main": "./index.js",
+    "dependencies": {
+        "express": "3.x",
+        "jade": "*",
+        "request": "2.x"
+    }
+}
