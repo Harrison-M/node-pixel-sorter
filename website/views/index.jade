@@ -1,16 +1,19 @@
 doctype 5
 html(lang="en")
     head
-        title Pixel Sorter
+        title pixel sorter
+        link(rel="Stylesheet",href="style.css")
     body
-        h1 Pixel Sorter
-        h2 Your images are big, tangled messes of pixels.  We'll sort them for you.
-        p Upload the image you want to sort:
+        h1 pixel sorter
+        h2 Your images are big, tangled messes of pixels.  We'll tidy them and put them back in the image for you.
         form(method='post',enctype='multipart/form-data')
             p
                 label(for='title') Title: 
                 input(type='text',name='title')
             p
+                label(for='image') Choose an image (one with a lot of different colors will give the best effect):
                 input(type='file',name='image')
             p
                 input(type='submit',value='upload')
+        p Please note that the result will be uploaded to imgur with the given title.  The upload is both anonymous and virtually indistinguishable from the original file.
+        p Your image will be stored temporarily for manipulation and deleted as soon as the process is complete.

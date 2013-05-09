@@ -1,0 +1,22 @@
+h1 {
+    font-weight: normal;
+    font-size: 2em;
+    color: #666;
+}
+
+h2 { color: #666;}
+
+body, a {
+  max-width: 740px;
+  margin: 0 auto;
+  text-align: center;
+  color: #333;
+}
+
+input { display: block; margin: 10px auto; }
+
+form { 
+  margin: 20px 0;
+  background-color: #EEE;
+  padding: 20px;
+}
